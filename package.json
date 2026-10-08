@@ -1,0 +1,14 @@
+{
+  "name": "glass-blog",
+  "version": "1.1.0",
+  "private": true,
+  "description": "陛下的小站 · 磨砂玻璃个人博客（零依赖静态站点）",
+  "scripts": {
+    "build": "node scripts/build-posts.mjs",
+    "watch": "node scripts/build-posts.mjs --watch",
+    "new": "node scripts/new-post.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
