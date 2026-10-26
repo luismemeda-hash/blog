@@ -21,9 +21,10 @@ window.SITE = {
   avatar: "L",                      // 头像：一个字（首字母），或图片路径如 'images/avatar.jpg'
   social: [
     // icon 可选：github / weibo / email / twitter / link
-    { name: "GitHub", url: "#", icon: "github" },
-    { name: "微博", url: "#", icon: "weibo" },
-    { name: "邮箱", url: "#", icon: "email" } // 真实邮箱可写成 "mailto:you@example.com"
+    { name: "GitHub", url: "https://github.com/luismemeda-hash", icon: "github" }
+    // 需要时取消注释并填上真实地址：
+    // { name: "微博", url: "https://weibo.com/你的ID", icon: "weibo" },
+    // { name: "邮箱", url: "mailto:you@example.com", icon: "email" }
   ],
   about: "你好，我是 Luis，一名喜欢写代码也喜欢四处走走的普通人。这里记录我的旅行见闻、读过的书和做过的小项目，欢迎常来坐坐。",
   footer: "© 2026 陛下的小站 · 由 Hark 构建"
